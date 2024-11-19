@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initail-scale=1.0"/>
+<head>
+<title>stona </title>
+</head>
+<body bgcolor="lime">
+	<div style="background-color:grey;">
+		<h1><center> projektowanie stron internetowych-Maksymilian Chmieliński</center></h1>
+	</div>
+	<div style="float:left; width:30%; height:550px;">
+		<h3>HTML</h3>
+				<a href="index.html"> strona główna </a><br />
+				<a href="kolory.html"> kolory </a><br />
+				<a href="nauczyciele.html"> nauczyciele </a><br />
+				<a href="zdjęcia.html"> zdjęcia </a><br />
+				<a href="tabele.html"> tabele </a><br />
+				<a href="tabele_Maksymilian_Chmielinski.html"> tabele na ocene </a><br />
+				<a href="listy.html"> lista </a><br />
+				<a href="chmielinski_lista.html"> lista na ocene </a><br />
+				<a href="mapa_odsylaczy.html"> mapa odsyłaczy </a><br />
+				<a href="formularz.html"> formularz </a><br />
+				<a href="formularznaocene.html"> formularz no ocene </a><br />
+	</div>
+	<div style="float:right; width:68%;">
+	<h3>formularz na ocene</h3>
+	<form action="onclick" method="post" enctype="text"><div>
+		<p> Adres</p><fieldset>
+		<input type="radio" name="adres" value="podstawowy">podstawowy
+		<input type="radio" name="adres" value="do wysyłki">do wysyłki
+		<input type="radio" name="adres" value="korespondencyjny">korespondencyjny
+		<input type="radio" name="adres" value="odbiorcy">odbiorcy
+		<p>nazwa  <input type="text" name="nazwa" value="sklep wielobranżowy poligraf"></p>
+		<p>ulica i numer  <input type="text" name="ulica" value=""></p>
+		<p>miejscowość  <input type="text" name="miejscowość" value="katowice"></p>
+		<p>kod pocztowy <input type="text" name="kod pocztowy" value="40-671"></p>
+		<p>telefon <input type="text" name="telefon " value="+48 601 601 601"></p>
+		<p>email  <input type="text" name="email" value="info@insert.com"></p>
+		</fieldset>
+		<p>Wysyłka</p><fieldset>
+		<p>przesyłka<input list="blok" name="przesyłka">
+		<datalist id="blok">
+		<option value="ekonomiczna">
+		<option value="piorytet">
+		<option value="ekspercka"></p>
+		<p>waga (g)  <input type="text" name="waga" value="1000"></p>
+		<p>gabaryt <select name="gabaryt"size="4" multiple>
+			<option>S (28x8x64cm)</option>
+			<option>M (38x19x64cm)</option>
+			<option>L (41x18x64cm)</option>
+			<option>XL(60x60x70cm)</option></p>
+		<p>Wartość <input type="text" name="wartość" value="0,00" size="2"> zł</p>
+		<p>nr rachunku <input type="text" name="nr rachunku" value="" size="60">
+		<p>data wysyłki <input type="date"></p></fieldset>
+		<fieldset><input type="checkbox" name="dddd" value="Z">Z-żądanie zwrotu/odesłania<br>
+		<input type="checkbox" name="dddd" value="R">R-polecenie<br>
+		<input type="checkbox" name="dddd" value="O">O-potwierdzenie odbioru<br>
+		<input type="checkbox" name="dddd" value="W">W-zdeklarowanie wartości<br>
+		<input type="checkbox" name="dddd" value="S">S-sprawdzenie zawartości<br>
+		<input type="checkbox" name="dddd" value="K">K-ostrożnie<br>
+		<p>uwagi: <textarea name="uwagi" cols="50" rows="10">
+proszę o wpisanie wszystkich uwag
+<- /przesyłka:
+	ekonomiczna
+	piorytetowa
+	expresowa
+	</textarea> <br>
+<button type="button" onclick="alert('wysłano')"> wyślij </button>
+<button type="button" onclick="alert('anulowano')"> anuluj </button>
+</fieldset>
+	</div>
+	<div style="background-color:grey; clear:both;"><center>&copy M.C OCTOBER 2024
+	</center></div>
+</body>
+</html>
