@@ -177,17 +177,17 @@ caption {
 			background-color:aqua;
 			color:red;
 		}
- table.dwa {
+ table.dwaj {
             width: 100%;
             border-collapse: collapse;
 			table-layout:auto;
 			display:block;
         }
 
-        table.dwa th, table.dwa td {
+        table.dwaj th, table.dwaj td {
             padding: 8px;
             border-top: 1px solid aqua;
         }
 
-        table.dwa tr:hover {
+        table.dwaj tr:hover {
             background-color: aqua;
