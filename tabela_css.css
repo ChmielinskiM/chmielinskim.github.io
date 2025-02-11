@@ -1,0 +1,193 @@
+body {
+	background-color:#cf7f7e;
+}
+table.zero,table.zero * {
+	border:3px solid blue;
+	padding:5px 30px 5px 0px;
+	border-collapse:collapse;
+}
+table.one {
+    width: 80%;
+    border-collapse: collapse; 
+    margin: 0 auto;
+}
+
+th.aaa {
+    border: 3px solid red;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: blue;
+    color: white;
+}
+
+td.bbb {
+    border: 2px solid green;
+    padding: 10px;
+    background-color: yellow;
+}
+ table.dwa {
+            width: 80%;
+            border-collapse: collapse;
+        }
+
+        table.dwa th, table.dwa td {
+            padding: 8px;
+            border-top: 1px solid aqua;
+        }
+
+        table.dwa tr:hover {
+            background-color: aqua;
+		}
+table.trzy {
+            width: 80%;
+            border-collapse: collapse;
+        }
+
+        table.trzy th, table.trzy td {
+            padding: 8px;
+            border-top: 1px solid aqua;
+        }
+
+        table.trzy tr:nth-child(even):hover {
+            background-color: violet;
+		}
+		 table.trzy tr:nth-child(odd):hover {
+            background-color: gray;
+		}
+table.cztery {
+            width: 80%;
+            border-collapse: collapse;
+        }
+
+        table.cztery th, table.cztery td {
+            padding: 8px;
+            border-top: 1px solid aqua;
+        }
+
+        table.cztery th:nth-child(even):hover {
+            background-color: aqua;
+		}
+		 table.cztery th:nth-child(odd):hover {
+            background-color: yellow;
+		 }
+		table.cztery td:nth-child(even):hover {
+            background-color: violet;
+		}
+		 table.cztery td:nth-child(odd):hover {
+            background-color: gray;
+		 }
+ table.piec {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+       table.piec { 
+	  border:1px solid black
+	   }
+ 
+
+       th.piec {
+            background-color: yellow;
+			color:red;
+		}
+ table.szesc {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+       table *.szesc { 
+	  border:1px solid black
+	   }
+ 
+
+       th.szesc {
+            background-color: yellow;
+			color:red;
+		}
+ table.noc {
+            border-collapse: separate;
+            border-spacing: 10px;
+			border: 2px inset #4CAF50;
+			border: 2px outset #FF6347; 
+        }
+
+        table.noc th {
+            background-color: #4CAF50;
+            color: red;
+            padding: 10px;
+        }
+
+        table.noc td {
+            padding: 10px;
+        }
+
+        table.noc tr:nth-child(odd) td {
+            border: 2px inset #4CAF50;
+        }
+
+        table.noc tr:nth-child(even) td {
+            border: 2px outset #FF6347; 
+        }
+ table.siedem {
+            border-collapse: collapse;
+            border-spacing: 5px;
+			width:80%;
+        }
+
+        table.siedem th {
+            background-color: #4CAF50;
+            color: red;
+            padding: 5px;
+			 border: 2px outset #FF6347;
+        }
+
+        table.siedem  td {
+            padding: 5px;
+			background-color:red;
+        }
+
+        table.siedem  tr td {
+            border: 2px inset #4CAF50;
+        }
+
+        table.siedem  tr td {
+            border: 2px outset #FF6347; 
+        }
+caption {
+	 background-color:black;
+	 color:aqua;
+	 border: 2px solid;
+	 border-color:blue;
+	 text-align:left;
+	 width:30%;
+}
+ table.zag {
+            width: 100%;
+            border-collapse: collapse;
+			border:2px solid lime
+        }
+
+        table.zag th {
+            padding: 2px;
+			background-color:green;
+			color:red;
+        }
+		table.zag td {
+			padding: 2px;
+			background-color:aqua;
+			color:red;
+		}
+ table.dwa {
+            width: 100%;
+            border-collapse: collapse;
+			table-layout:auto;
+			display:block;
+        }
+
+        table.dwa th, table.dwa td {
+            padding: 8px;
+            border-top: 1px solid aqua;
+        }
+
+        table.dwa tr:hover {
+            background-color: aqua;
