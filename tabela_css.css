@@ -189,5 +189,5 @@ caption {
             border-top: 1px solid aqua;
         }
 
-        table.dwaj tr:hover {
+        table.dwaj tr.dwaj:hover {
             background-color: aqua;
